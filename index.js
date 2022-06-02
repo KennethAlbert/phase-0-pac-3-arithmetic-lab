@@ -16,15 +16,11 @@ function divide(a,b){
 }
 
 function increment(n){
-    if(n!==NaN){
-        return  n+=1
-    }
+    return ++n;
 }
 
 function decrement(n){
-    if(n!==NaN){
-        return  n-=1
-    }
+    return --n;
 }
 
 function makeInt(n){
